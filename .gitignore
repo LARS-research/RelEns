@@ -1,6 +1,7 @@
 # Project related
 dataset
 ranks/*
+!ranks/.gitkeep
 
 
 # Byte-compiled / optimized / DLL files

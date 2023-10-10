@@ -1,6 +1,7 @@
 numpy
 ogb==1.2.4
-itertools
 tqdm
 hyperopt
 ray
+torch
+setproctitle

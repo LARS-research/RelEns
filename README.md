@@ -1,5 +1,5 @@
 # RelEns
-Code for the paper [**Relation-aware Ensemble Learning for Knowledge Graph Embedding**](). Accepted by EMNLP 2023.
+Code for the paper [**Relation-aware Ensemble Learning for Knowledge Graph Embedding**](http://arxiv.org/abs/2310.08917). Accepted by EMNLP 2023.
 This paper proposes a relation-aware ensemble method with divide-concur method and achieving state-of-the-art KG embedding performance.
 ## Quick Start 
 Here, we provide a quick start guide on how to reproduce the results.

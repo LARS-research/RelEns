@@ -33,7 +33,7 @@ For WN18RR, FB15k-237, and NELL-995, the shape of the ranks npy file is (#number
 
 For OGB datasets, the shape of the ranks npy file is (#number of samples, 1002). It includes 1002 columns, which consist of 1 positive head rank, 500 head negative ranks, 1 positive tail rank, and 500 tail negative ranks.
 
-### run the code
+### Run the code
 To run the code, you can execute the ogb_main.ipynb file for OGB datasets and main.ipynb for other datasets. Additionally, the log for ogbl-biokg and WN18RR are already available.
 
 ## License

@@ -6,7 +6,7 @@ Here, we provide a quick start guide on how to reproduce the results.
 
 ### Download dataset
 For the OGB dataset, you don't need to do anything. We will download it automatically.
-For WN18RR, FB15k-237 and NELL-995, you can download them from [here]()
+For WN18RR, FB15k-237 and NELL-995, you can download them from [here](https://github.com/LARS-research/KGTuner/tree/master/code/dataset)
 
 ### Download the project and install the required dependencies.
 ```bash
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ### Prepare predictions of the base models.
-You can download the base model predictions from [here]() to reproduce the results, but you need to prepare the predictions for your own dataset or base model.
+You need to prepare the predictions for the base model.
 
 The directory structure is as follows:
 ```

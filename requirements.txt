@@ -2,6 +2,6 @@ numpy
 ogb==1.2.4
 tqdm
 hyperopt
-ray
+ray==2.3.0
 torch
 setproctitle

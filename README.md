@@ -1,4 +1,9 @@
 # RelEns
+![Static Badge](https://img.shields.io/badge/arXiv-2310.08917-B31B1B.svg?link=https%3A%2F%2Farxiv.org%2Fabs%2F2303.16982)
+
+<p align="center"><img src="images/overview.jpg" width=80%></p>
+<p align="center"><b>Overview of the RelEns.</b></p>
+
 Code for the paper [**Relation-aware Ensemble Learning for Knowledge Graph Embedding**](http://arxiv.org/abs/2310.08917). Accepted by EMNLP 2023.
 This paper proposes a relation-aware ensemble method with divide-concur method and achieving state-of-the-art KG embedding performance.
 ## Quick Start 
@@ -35,6 +40,23 @@ For OGB datasets, the shape of the ranks npy file is (#number of samples, 1002).
 
 ### Run the code
 To run the code, you can execute the ogb_main.ipynb file for OGB datasets and main.ipynb for other datasets. Additionally, the log for ogbl-biokg and WN18RR are already available.
+
+## Leaderboard
+<p align="center"><img src="images/ogbl-biokg.png" width=80%></p>
+<p align="center"><img src="images/ogbl-wikikg2.png" width=80%></p>
+
+## Citation
+Please kindly cite this paper if you use the code.
+```
+@article{yue2023relation,
+  title={Relation-aware Ensemble Learning for Knowledge Graph Embedding},
+  author={Yue, Ling and Zhang, Yongqi and Yao, Quanming and Li, Yong and Wu, Xian and Zhang, Ziheng and Lin, Zhenxi and Zheng, Yefeng},
+  year={2023},
+  eprint={2303.08917},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
+```
 
 ## License
 RelEns is released under the MIT license. Further details can be found [here](LICENSE).
